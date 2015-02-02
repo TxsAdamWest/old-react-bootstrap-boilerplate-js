@@ -9,7 +9,7 @@ TogglePanel = React.createClass
 
   render: ->
     if @state.showFirstPanel
-      <Panel header="Hello There!" onClick={@onShowSecondPanel}>
+      <Panel header="Hello There!" bsStyle="primary" onClick={@onShowSecondPanel}>
         I am the first Panel. Click me to show the Second Panel
       </Panel>
 
